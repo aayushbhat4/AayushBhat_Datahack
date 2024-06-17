@@ -1,1 +1,3 @@
 # AayushBhat_Datahack
+
+The first step in the process was to evaluate the data and replace the null values with the modes of the that parameter to have usable data. Then the data was segregated into Binary, Nominal and Ordinal categorical data to accurately map the values using encoding techniques such as One-Hot Encoding for Nominal data and Ordinal Encoding for Ordinal data to maintain accurate relationship with the target data while training the model. Then the processed data was used to train the model using a Support Vector MAchine (SVM) using a pipeline module. The trained model was used to predict the labels for the X_test dataframe to produce the submission.csv.
